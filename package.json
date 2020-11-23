@@ -40,11 +40,5 @@
     "watch": "webpack --watch",
     "build": "webpack --config webpack.config.production.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/clubefashiondevteam/omc.git"
-  },
-  "author": "vlopes",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/clubefashiondevteam/omc#readme"
+  "author": "vascocajada"
 }
