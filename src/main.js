@@ -2,10 +2,10 @@ import Vue from 'vue'
 
 import App from "./App.vue"
 
-import messagesPt from '../../translations/messages.pt.yml'
-import messagesEs from '../../translations/messages.es.yml'
-//import messagesEn from '../../translations/messages.en.yml'
-//import messagesFr from '../../translations/messages.fr.yml'
+import messagesPt from '../translations/messages.pt.yml'
+import messagesEs from '../translations/messages.es.yml'
+//import messagesEn from '../translations/messages.en.yml'
+//import messagesFr from '../translations/messages.fr.yml'
 
 import store from './store'
 
@@ -16,8 +16,8 @@ Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
-const configElement = document.getElementById( 'config' )
-const config = JSON.parse( configElement.innerHTML )
+const configElement = document.getElementById('config')
+const config = JSON.parse(configElement.innerHTML)
 
 Vue.mixin({
     data: function() {
