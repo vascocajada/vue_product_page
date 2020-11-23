@@ -1,8 +1,8 @@
 # vue_product_page
 
-Vue Product Page is a vue sample application that can be used to display a product list for a e-commerce platform.
+Vue Product Page is a vue sample application that can be used to display a product list for an E-commerce platform.
 
-It was written for a website that sells mattresses and the backend code is not included because it is not open-source.
+It was written for a website that sells mattresses and the backend code is not included in this repository.
 
 The purpose of this repository is to serve as a showcase of code written by [vascocajada](https://github.com/vascocajada).
 
@@ -14,9 +14,11 @@ Clone the repository into your project.
 git clone https://github.com/vascocajada/vue_product_page.git
 ```
 
-And import the bundle code into the html page where you want to display the product list. Then create an element with the id **article-list-vue** — that is where your vue application will be injected.
+Import the bundle code into the html page where you want to display the product list.
 
-You should also create a script tag on your html page with the id "config". This script should only contain a JSON structure where you pass a few config parameters to your vue application.
+Then create an element with the id **article-list-vue** — that is where your vue application will be injected.
+
+You should also create a script tag on your html page with the id **config**. This script should only contain a JSON structure where you pass a few config parameters to your vue application.
 
 ```html
 <script id="config" type="application/json">
